@@ -6,15 +6,15 @@ This repository will serve as the codebase for the Nashville SC Marketing capsto
 To most easily run this code out of the box, the following packages must be installed:
 
 * pandas
-* praw
-  NOTE: Need valid Reddit account, find instructions here: https://praw.readthedocs.io/en/stable/getting_started/quick_start.html
-  NOTE: Code currently uses account: kitconnelly. Please use own account for any additional data pulls.
+* praw  
+  NOTE: Need valid Reddit account, find instructions here: https://praw.readthedocs.io/en/stable/getting_started/quick_start.html  
+  NOTE: Code currently uses account: kitconnelly. Please use own account for any additional data pulls.  
 * datetime
 * time
 * os
 * warnings
 * openai
-  NOTE: Need an OpenAI Key, find instructions here: https://platform.openai.com/docs/quickstart?context=python
+  NOTE: Need an OpenAI Key, find instructions here: https://platform.openai.com/docs/quickstart?context=python  
 * getpass
 * re
 * random
