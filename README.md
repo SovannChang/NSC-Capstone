@@ -1,18 +1,28 @@
 # NSC-Capstone
+
 This repository will serve as the codebase for the Nashville SC Marketing capstone project. This will be completed as the capstone project for Kit Connelly and Sovann Chang in the MSDS program at Vanderbilt University.
 
 ### Prerequisites
 To most easily run this code out of the box, the following packages must be installed:
+
 * pandas
-* numpy
-* scikit-learn
+* praw
+  NOTE: Need valid Reddit account, find instructions here: https://praw.readthedocs.io/en/stable/getting_started/quick_start.html
+  NOTE: Code currently uses account: kitconnelly. Please use own account for any additional data pulls.
+* datetime
+* time
+* os
+* warnings
+* openai
+  NOTE: Need an OpenAI Key, find instructions here: https://platform.openai.com/docs/quickstart?context=python
+* getpass
+* re
+* random
+* cleantext
+* langchain
 * matplotlib
-* seaborn
-* great expectations
-* h2o
-* fastai
-* huggingface
-* datasets
+* scipy
+* ast
 
 # Quick navigation
 [Background](#background)  
@@ -22,25 +32,17 @@ To most easily run this code out of the box, the following packages must be inst
 [Repo Structure](#repo-structure)  
 [Contact](#contact-info)
 
-# Goal
-
-Provide an overview of the goals and deliverables of the project. Mention any relevant details or issues.
-
 # Background  
 
 Provide a broad overview of the purpose of the project.
 
 # Data
 
-Describe the data - what kind of data is it?  Describe the general format, and potential quirks.
+All data will be scraped from public sources. This includes data from Reddit posts from the following subreddits; r/NashvilleSC, r/TennesseeTitans, r/Predators, game data from pro football reference, football ref, nhl ref?, and Instagram. The collection of this data was free through the use of various API's.
 
 # Models
 
-Clearly identify each of the response variables of interest.  Any additional desired analysis should also be described here.
-
-# Timeline
-
-Outline the desired timeline of the project and any explicit deadlines.
+OpenAI's gpt-3.5 is the model used in this project. This is a pre-trained model, thus requiring only FewShot prompting to be applied for this use case. Other models could be trained and tested on the data for further development.
 
 # Repo Structure 
 
@@ -52,4 +54,5 @@ All files which appear in the repo should be able to run, and not contain error 
 
 # Contact Info
 
-Add contact information for any project stakeholders. Include name, email and title. 
+* Kit Connelly - cristian.c.connelly@vanderbilt.edu
+* Sovann Chang - sovann.d.chang@vanderbilt.edu
