@@ -13,7 +13,7 @@ To most easily run this code out of the box, the following packages must be inst
 * time
 * os
 * warnings
-* openai
+* openai  
   NOTE: Need an OpenAI Key, find instructions here: https://platform.openai.com/docs/quickstart?context=python  
 * getpass
 * re
