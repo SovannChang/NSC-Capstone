@@ -30,7 +30,7 @@ To most easily run this code out of the box, the following packages must be inst
 [Models](#models)  
 [Timeline](#timeline)  
 [Repo Structure](#repo-structure)  
-[Replication](#replication)
+[Replication](#replication)  
 [Contact](#contact-info)
 
 # Background  
