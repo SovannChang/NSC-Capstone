@@ -29,7 +29,6 @@ To most easily run this code out of the box, the following packages must be inst
 [Data](#data)  
 [Models](#models)  
 [Timeline](#timeline)  
-[Repo Structure](#repo-structure)  
 [Replication](#replication)  
 [Contact](#contact-info)
 
@@ -46,14 +45,6 @@ All data will be scraped from public sources. This includes data from Reddit pos
 # Models
 
 OpenAI's gpt-3.5 is the model used in this project. This is a pre-trained model, thus requiring only FewShot prompting to be applied for this use case. Other models could be trained and tested on the data for further development.
-
-# Repo Structure 
-
-Give a description of how the repository is structured. Example structure description below:
-
-The repo is structured as follows: Notebooks are grouped according to their series (e.g., 10, 20, 30, etc) which reflects the general task to be performed in those notebooks.  Start with the *0 notebook in the series and add other investigations relevant to the task in the series (e.g., `11-cleaned-scraped.ipynb`).  If your notebook is extremely long, make sure you've utilized nbdev reuse capabilities and consider whether you can divide the notebook into two notebooks.
-
-All files which appear in the repo should be able to run, and not contain error or blank cell lines, even if they are relatively midway in development of the proposed task. All notebooks relating to the analysis should have a numerical prefix (e.g., 31-) followed by the exploration (e.g. 31-text-labeling). Any utility notebooks should not be numbered, but be named according to their purpose. All notebooks should have lowercase and hyphenated titles (e.g., 10-process-data not 10-Process-Data). All notebooks should adhere to literate programming practices (i.e., markdown writing to describe problems, assumptions, conclusions) and provide adequate although not superfluous code comments.
 
 # Replication
 See this section to replicate the data collection, cleaning, merging, and analysis. The following is a record of the order in which the notebooks were run to gather, clean, merge, and analyze the Reddit data (and other data needed for analysis). Note that some steps are interchangeable, but some notebooks require others to have been run as a prerequisite.
